@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4522c7993976cbd4897f893edd2e7ac9, type: 3}
+  m_Name: Common_PurpleCrystalConfig
+  m_EditorClassIdentifier: 
+  <ItemIcon>k__BackingField: {fileID: 21300000, guid: ec57e0fb35c66d14a82c28b8d000cd44, type: 3}
+  <BasicItemCharacteristicsData>k__BackingField:
+    <LevelCharacteristicType>k__BackingField: 0
+    <ItemType>k__BackingField: 1
+    <ChangeType>k__BackingField: 1
+    <NameText>k__BackingField: Purple crystal
+    <DescriptionText>k__BackingField: The probability of obtaining is high. Rarity
+      type is common.
+  <CrystalCharacteristicsData>k__BackingField:
+    <ImprovementDamage>k__BackingField: 3
+    <ImprovementCriticalHitChance>k__BackingField: 0
+    <ImprovementCriticalDamage>k__BackingField: 0
+    <ImprovementPercentageVampirism>k__BackingField: 0
+    <ImprovementExtraHealth>k__BackingField: 5
+    <ImprovementEvasionProbability>k__BackingField: 0
+    <ImprovementDamageBlock>k__BackingField: 0
+    <ImprovementReflectedDamage>k__BackingField: 0

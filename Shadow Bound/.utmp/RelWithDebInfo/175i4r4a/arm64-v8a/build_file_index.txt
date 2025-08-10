@@ -1,0 +1,2 @@
+C:\Users\Nikita\MyPrograms\WorkProjects\xpp-683\Shadow Bound\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Nikita\MyPrograms\WorkProjects\xpp-683\Shadow Bound\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

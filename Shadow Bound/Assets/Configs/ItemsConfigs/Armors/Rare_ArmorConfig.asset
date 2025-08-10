@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ed20c03ae5f184f8e9363c0f1efc3a, type: 3}
+  m_Name: Rare_ArmorConfig
+  m_EditorClassIdentifier: 
+  <ItemIcon>k__BackingField: {fileID: 21300000, guid: 28676895f42da924781d5a03d21c4266, type: 3}
+  <BasicItemCharacteristicsData>k__BackingField:
+    <LevelCharacteristicType>k__BackingField: 1
+    <ItemType>k__BackingField: 4
+    <ChangeType>k__BackingField: 3
+    <NameText>k__BackingField: Armor
+    <DescriptionText>k__BackingField: The probability of obtaining is average. Rarity
+      is rare.
+  <ArmorCharacteristicsData>k__BackingField:
+    <ExtraHealth>k__BackingField: 100
+    <EvasionProbability>k__BackingField: 3
+    <DamageBlock>k__BackingField: 2
+    <ReflectedDamage>k__BackingField: 0

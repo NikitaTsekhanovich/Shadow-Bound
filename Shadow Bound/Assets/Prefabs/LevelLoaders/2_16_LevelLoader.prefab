@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2062955394917857734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718504232496685233}
+  - component: {fileID: 9158478673707857464}
+  m_Layer: 0
+  m_Name: 2_EnemySpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718504232496685233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062955394917857734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 9.15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4215664598554517975}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &9158478673707857464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062955394917857734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9462314bf4cc94d409ab3e2874daf6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyPrefab: {fileID: 4943230677998600854, guid: 90acf0783e942bc4b903bf13df7bca28, type: 3}
+  _enemyCharacteristicsData:
+    <Health>k__BackingField: 8000
+    <Speed>k__BackingField: 0.2
+    <Experience>k__BackingField: 20
+    <AttackSpeed>k__BackingField: 0.5
+  _hasArmor: 1
+  _armorCharacteristicsData:
+    <ExtraHealth>k__BackingField: 20
+    <EvasionProbability>k__BackingField: 50
+    <DamageBlock>k__BackingField: 25
+    <ReflectedDamage>k__BackingField: 10
+  _armorLevel: 2
+  _weaponCharacteristicsData:
+    <Damage>k__BackingField: 800
+    <CriticalHitChance>k__BackingField: 25
+    <CriticalDamage>k__BackingField: 35
+    <PercentageVampirism>k__BackingField: 80
+  _weaponLevel: 2
+  _dropsData:
+  - <LevelCharacteristicType>k__BackingField: 1
+    <ItemType>k__BackingField: 1
+    <DropItemPrefab>k__BackingField: {fileID: 2561787387722823926, guid: 0596ac2826d6a14468b8f307c8c6dc4f, type: 3}
+    <Quantity>k__BackingField: 22
+    <DropChance>k__BackingField: 75
+  - <LevelCharacteristicType>k__BackingField: 0
+    <ItemType>k__BackingField: 2
+    <DropItemPrefab>k__BackingField: {fileID: 982681172935482964, guid: 7cda378a97a59de479e3633e50ea38b9, type: 3}
+    <Quantity>k__BackingField: 11
+    <DropChance>k__BackingField: 55
+--- !u!1 &5441145966479511760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215664598554517975}
+  - component: {fileID: 3818111469017249657}
+  m_Layer: 0
+  m_Name: 2_16_LevelLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215664598554517975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441145966479511760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4304047430248485805}
+  - {fileID: 718504232496685233}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3818111469017249657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441145966479511760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68fcab05bd942314b882e535338e793d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnPoints:
+  - {fileID: 8620591285323823869}
+  - {fileID: 9158478673707857464}
+--- !u!1 &5968585299414247921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4304047430248485805}
+  - component: {fileID: 8620591285323823869}
+  m_Layer: 0
+  m_Name: 1_EnemySpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4304047430248485805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5968585299414247921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 6.32, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4215664598554517975}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &8620591285323823869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5968585299414247921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9462314bf4cc94d409ab3e2874daf6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyPrefab: {fileID: 4943230677998600854, guid: 90acf0783e942bc4b903bf13df7bca28, type: 3}
+  _enemyCharacteristicsData:
+    <Health>k__BackingField: 8000
+    <Speed>k__BackingField: 0.2
+    <Experience>k__BackingField: 20
+    <AttackSpeed>k__BackingField: 0.5
+  _hasArmor: 1
+  _armorCharacteristicsData:
+    <ExtraHealth>k__BackingField: 20
+    <EvasionProbability>k__BackingField: 50
+    <DamageBlock>k__BackingField: 25
+    <ReflectedDamage>k__BackingField: 10
+  _armorLevel: 2
+  _weaponCharacteristicsData:
+    <Damage>k__BackingField: 680
+    <CriticalHitChance>k__BackingField: 35
+    <CriticalDamage>k__BackingField: 35
+    <PercentageVampirism>k__BackingField: 80
+  _weaponLevel: 2
+  _dropsData:
+  - <LevelCharacteristicType>k__BackingField: 2
+    <ItemType>k__BackingField: 1
+    <DropItemPrefab>k__BackingField: {fileID: 2561787387722823926, guid: 0596ac2826d6a14468b8f307c8c6dc4f, type: 3}
+    <Quantity>k__BackingField: 6
+    <DropChance>k__BackingField: 60
+  - <LevelCharacteristicType>k__BackingField: 0
+    <ItemType>k__BackingField: 2
+    <DropItemPrefab>k__BackingField: {fileID: 982681172935482964, guid: 7cda378a97a59de479e3633e50ea38b9, type: 3}
+    <Quantity>k__BackingField: 14
+    <DropChance>k__BackingField: 60

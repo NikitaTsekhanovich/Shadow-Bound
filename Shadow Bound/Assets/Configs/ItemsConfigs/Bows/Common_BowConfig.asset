@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105cc6de2b35b8d42a5e5af340959830, type: 3}
+  m_Name: Common_BowConfig
+  m_EditorClassIdentifier: 
+  <ItemIcon>k__BackingField: {fileID: 21300000, guid: 5f326e58cebe4954890b8df7512fd5b1, type: 3}
+  <BasicItemCharacteristicsData>k__BackingField:
+    <LevelCharacteristicType>k__BackingField: 0
+    <ItemType>k__BackingField: 6
+    <ChangeType>k__BackingField: 3
+    <NameText>k__BackingField: Bow
+    <DescriptionText>k__BackingField: The probability of obtaining is high. Rarity
+      type is common.
+  <WeaponCharacteristicsData>k__BackingField:
+    <Damage>k__BackingField: 2.5
+    <CriticalHitChance>k__BackingField: 0
+    <CriticalDamage>k__BackingField: 0
+    <PercentageVampirism>k__BackingField: 0
